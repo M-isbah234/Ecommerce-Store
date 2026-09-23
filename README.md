@@ -64,14 +64,14 @@ Ensure you have Python installed on your system.
    ```
 
 2. **Access the site:**
-   Open your browser and navigate to `http://127.0.0.1:8000/`
+   Open your browser and navigate to localhost
 
 3. **Admin Panel:**
-   Access the Django admin dashboard at `http://127.0.0.1:8000/admin/` to manage products and categories.
+   Access the Django admin dashboard at `localhost+port/admin/` to manage products and categories.
 
 4. **Control Panel:**
-   Access the control panel at `http://127.0.0.1:8000/control-panel/` to manage products and categories.
-## 📁 Project Structure
+   Access the control panel at `localhost+port/control-panel/` to manage products and categories.
+## Project Structure
 
 - `core/`: Project configuration and settings.
 - `shop/`: Core e-commerce logic (products, cart, orders).
